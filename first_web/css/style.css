@@ -1,0 +1,83 @@
+h1 {
+    font-size: 22px;
+    margin-top:0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+h3{
+    color:darkgrey;
+}
+body {
+    font-size: 15px;
+    margin:0;
+    padding:0;
+}
+.form-row img{
+    position:absolute;
+    top:16%;
+    width:450px;
+}
+.values{
+    position:absolute;
+    top:16%;
+    left: 24%;
+}
+header {
+    margin:0;
+    padding:0;
+    height:60px;
+    font-size: 15px;
+    font-family: Georgia, monospace;
+    background:linear-gradient(skyblue,white);
+    border-radius: 0px 0px 15px 15px;
+}
+
+input {
+    border-radius: 12px 0 ;
+    border:1px solid skyblue;
+}
+input:hover{
+    border:1px solid black;
+}
+input.button {
+    margin-top:3%;
+    background-color: skyblue;
+    color:black;
+    height:23px;
+    width:49%;
+    border:0;
+}
+input.button:hover{
+    border: 2px solid black;
+}
+.resultTable {
+    width: 600px;
+    border-spacing:0px;
+    overflow:auto;
+}
+.generalTable{
+    width:100%;
+    height: 100%;
+    border:0;
+}
+.generalTable th{
+    border:0;
+}
+.generalTable td {
+    border:0;
+}
+.OUT{
+    height:100%;
+    overflow:auto;
+}
+.resultTable td {
+    padding: 3px;
+    text-align: center;
+    border-bottom: 1px solid skyblue;
+}
+.resultTable th{
+    padding: 5px;
+    border-bottom: 3px solid skyblue;
+}
+
+
